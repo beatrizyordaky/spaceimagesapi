@@ -3,9 +3,9 @@ package io.github.beatrizyordaky.spaceimagesapi.application.images;
 import io.github.beatrizyordaky.spaceimagesapi.domain.entity.Image;
 import io.github.beatrizyordaky.spaceimagesapi.domain.service.ImageService;
 import io.github.beatrizyordaky.spaceimagesapi.infra.repository.ImageRepository;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @RequiredArgsConstructor
